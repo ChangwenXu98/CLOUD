@@ -1,0 +1,19 @@
+gpu: 'cuda'
+load_model: "cloud_mb_discovery_layer_3_gen_bs_1024_fre_10"
+save_path: "data/wbm_eform_pred_mp_layer_3_gen_bs_1024_fre_10.csv"
+
+model:
+  max_position_embeddings: 64
+  num_attention_heads: 12
+  num_hidden_layers: 12
+  hidden_dropout_prob: 0.1
+  attention_probs_dropout_prob: 0.1
+  dropout: 0.1
+  num_layers: 3
+
+dataset:
+  data_path: 'data/wbm_cloud.csv'
+  batch_size: 4096
+  num_workers: 0
+  vocab_path: './tokenizer_cloud_optimade'
+  blocksize: 64

@@ -1,0 +1,36 @@
+file_path: 'data/pretrain_cloud_optimade_6M_num_spg_num.csv'
+gpu: 'cuda'
+# gpu: 'cpu'
+epochs: 50                              # total number of epochs
+lr_rate: 0.0001                        # learning rate
+scheduler_type: 'cosine'                # scheduler type
+weight_decay: 0.0                       # weight decay for AdamW
+warmup_ratio: 0.05                      # warm-up ratio for scheduler
+save_strategy: 'epoch'                  # save strategy of trainer
+overwrite_output_dir: True              # whether to overwrite output directory (i.e. True/False)
+save_total_limit: 3                    # save total limit of trainer
+fp16: True                              # float precision 16 (i.e. True/False)
+logging_strategy: 'epoch'               # logging frequency
+evaluation_strategy: 'epoch'            # validation frequency
+report_to: 'tensorboard'                # integrations to report the results and logs to
+sharded_ddp: True                       # option of Sharded DDP training        
+save_path: "./runs/pretrain_cloud_optimade_6M_num_spg_num"   # logging and save path of the pretrained model
+load_checkpoint: "runs/pretrain_cloud_optimade_6M_num_spg_num/checkpoint-106597"
+ddp_backend: "nccl"
+fsdp: "full_shard"
+
+max_position_embeddings: 64            # max position embeddings of Transformer
+num_attention_heads: 12                 # number of attention heads in each hidden layer
+num_hidden_layers: 12                    # number of hidden layers
+hidden_dropout_prob: 0.1                # hidden layer dropout
+attention_probs_dropout_prob: 0.1       # attention dropout
+mlm_probability: 0.15                   # masked probability in mlm
+dropout: 0.1
+n_targets: 6
+
+dataset:
+  vocab_path: './tokenizer_cloud_optimade_spg_num'
+  blocksize: 64                          # max length of sequences after tokenization
+  batch_size: 1024                         # batch size
+  dataloader_num_workers: 4              # Number of subprocesses to use for data loading
+  seed: 0

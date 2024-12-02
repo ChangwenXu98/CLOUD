@@ -1,0 +1,14 @@
+# Dataset path
+file_path: '../data/tokenizer_train_dataset_optimade_6M.txt'
+
+# Type of dataset file
+file_type: 'file'
+
+# Folder to hold each type of saved tokenizer
+save_path: './'
+
+# Vocab size of trained tokenizer
+vocab_size: 52000
+
+# Min appearance of token to be added to vocab file
+min_freq: 1

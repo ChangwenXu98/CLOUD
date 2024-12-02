@@ -1,0 +1,98 @@
+gpu: 'cuda'
+# gpu: 'cpu'
+epochs: 200
+optimizer: "adamw"
+lr: 1e-4
+min_lr: 1e-7
+weight_decay: 0.0
+warmup_epochs: 2
+patience_epochs: 3
+# warmup_ratio: 0.1
+# load_model: None
+# load_model: "runs/pretrain_gen_mlm_05_1M"
+# load_model: "runs/pretrain_gen_mlm_015_1M"
+# load_model: "runs/pretrain_gen_lpp_1M"
+# load_model: "runs/checkpoint-46424"
+# load_model: "runs/pretrain_gen_mlm_015_1M"
+# load_model: "runs/pretrain_gen_mlm_015_1M_1_4"
+# load_model: "runs/pretrain_gen_mlm_015_1M_1_1"
+# load_model: "runs/pretrain_slices_mlm_015_1M"
+# load_model: "runs/pretrain_nowyck_1M"
+# load_model: "runs/pretrain_gen_1M_new"
+# load_model: "runs/pretrain_gen_1M_new_new"
+# load_model: "runs/pretrain_gen_3M_6_12"
+# load_model: "runs/pretrain_gen_8M_16_24"
+# load_model: "runs/pretrain_gen_5M_12_12_50"
+# load_model: "runs/pretrain_cloud_optimade_6M"
+load_model: "runs/pretrain_cloud_optimade_6M_num_spg_num"
+resume_from_checkpoint: False
+log_every_n_steps: 50
+task: "generator"
+# task: "slices"
+LLRD: False
+freeze_epoch: 10
+save_path: "cloud_mb_discovery_layer_3_gen_bs_1024_fre_10_spg_num"
+
+model:
+  # Bert
+  max_position_embeddings: 64
+  num_attention_heads: 12
+  num_hidden_layers: 12
+  hidden_dropout_prob: 0.1
+  attention_probs_dropout_prob: 0.1
+  dropout: 0.1
+  num_layers: 3
+
+  # # Multi-modal
+  # structure_net_params:
+  #   # orig_atom_fea_len:
+  #   # nbr_fea_len:
+  #   atom_fea_len: 64
+  #   n_conv: 3
+  #   h_fea_len: 128
+  #   n_h: 1
+  #   classification: False
+  # composition_net_params:
+  #   robust: True
+  #   task_dict: ['regression']
+  #   # elem_emb_len: 
+  #   elem_fea_len: 128
+  #   n_graph: 3
+  #   elem_heads: 3
+  # weight_net_params:
+  #   input_dim: 128
+  #   output_dim: 1
+  #   hidden_layer_dims: [128,64]
+  # output_net_params:
+  #   input_dim: 128
+  #   output_dim: 1
+  #   hidden_layer_dims: [128,64]
+
+  # # Roost
+  # robust: False
+  # task_dict: ['regression']
+  # # elem_emb_len: 
+  # elem_fea_len: 128
+  # n_graph: 3
+  # elem_heads: 3
+
+  # # CGCNN
+  # # orig_atom_fea_len:
+  # # nbr_fea_len:
+  # atom_fea_len: 64
+  # n_conv: 3
+  # h_fea_len: 128
+  # n_h: 1
+  # classification: False
+
+dataset:
+  # dataset_name: 'data/mp_cloud.csv'
+  dataset_name: 'data/mp_cloud_spg_num.csv'
+  batch_size: 1024
+  num_workers: 2
+  # vocab_path: './tokenizer_cloud_optimade'
+  vocab_path: './tokenizer_cloud_optimade_spg_num'
+  blocksize: 64
+  seed: 42
+  valid_size: 0.05
+  
