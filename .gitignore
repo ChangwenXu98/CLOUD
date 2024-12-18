@@ -1,7 +1,3 @@
-# Data files
-data/*
-data*
-
 # logging files
 log/*
 

@@ -33,6 +33,12 @@ $ conda activate cloud
 
 ## Run the Model
 
+## Convert crystal structures to symmetry-aware string representation
+To obtain the string representation from cif files.
+```
+$ python structure_to_str.py --dir <path_to_cif> --out <output_path> --numproc <num_of_processes> --batchsize <batch_size>
+```
+
 ### Pretraining
 To pretrain CLOUD, where the configurations and detailed explaination for each variable can be found in `config_pretrain.yaml`.
 ```
