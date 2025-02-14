@@ -11,6 +11,10 @@ from multiprocessing import Pool
 import glob
 from time import perf_counter
 
+"""
+Functions for reduced string representation of a structure
+"""
+
 def generate_seq(struct, gen_str, wyckoff_multiplicity_dict):
     analyzer = SpacegroupAnalyzer(struct)
     symm_dataset = analyzer.get_symmetry_dataset()
@@ -49,13 +53,53 @@ def process_cif(file_path):
 def save_results(results, output_file):
     df = pd.DataFrame(results, columns=["gen_str"])
     df.to_csv(output_file, mode='a', index=False)
+    
+    
+"""
+Functions for full string representation of a structure
+"""
+
+def generate_seq_full(struct, gen_str, wyckoff_multiplicity_dict):
+    analyzer = SpacegroupAnalyzer(struct)
+    symm_dataset = analyzer.get_symmetry_dataset()
+    wyckoff_positions = symm_dataset['wyckoffs']
+
+    spg_num = str(analyzer.get_space_group_number())
+    seq = " ".join(gen_str[spg_num])
+
+    wyckoff_ls = []
+    for i in range(len(wyckoff_positions)):
+        multiplicity = wyckoff_multiplicity_dict[spg_num][wyckoff_positions[i]]
+        wyckoff_symbol = multiplicity + wyckoff_positions[i]
+        wyckoff_ls.append(wyckoff_symbol)
+    seq = seq + ' | ' + ' '.join(wyckoff_ls)
+
+    elements = [site.species_string for site in struct]
+    
+    assert len(elements) == len(wyckoff_ls)
+   
+    seq = seq + ' | ' + ' '.join(elements)
+
+    return seq
+
+def process_cif_full(file_path):
+    try:
+        struct = Structure.from_file(file_path)
+        # Replace with your custom conversion function
+        string_representation = generate_seq_full(struct, gen_str, wyckoff_multiplicity_dict)
+        return string_representation
+    except:
+        return None
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Get cloud from cif")
-    parser.add_argument("dir", help="Path to the cif file")
-    parser.add_argument("out", help="Path to save cloud csv")
-    parser.add_argument("numproc", help="number of processes")
-    parser.add_argument("batchsize", help="batch size")
+    parser.add_argument("--dir", help="Path to the cif file")
+    parser.add_argument("--out", help="Path to save cloud csv")
+    parser.add_argument("--numproc", help="number of processes")
+    parser.add_argument("--batchsize", help="batch size")
+    parser.add_argument("--reduce", action="store_true", help="Enable reduced string representation")
+    parser.add_argument("--no-reduce", action="store_false", dest="reduce", help="Disable reduced string representation")
     args = parser.parse_args()
 
     with open("data/wyckoff-position-multiplicities.json") as file:
@@ -72,7 +116,8 @@ if __name__ == "__main__":
     with Pool(int(args.numproc)) as pool:
         for batch_num in range(num_batches):
             batch_files = cif_files[batch_num * int(args.batchsize):(batch_num + 1) * int(args.batchsize)]
-            results = pool.map(process_cif, batch_files)
+            process_func = process_cif if args.reduce else process_cif_full
+            results = pool.map(process_func, batch_files)
             # count += 1
             save_results(results, args.out)
             print(f"Processed batch {batch_num + 1}/{num_batches}")
