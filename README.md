@@ -4,7 +4,7 @@
 [Changwen Xu](https://changwenxu98.github.io/), [Shang Zhu](https://shang-zhu.github.io/), [Venkatasubramanian Viswanathan](https://aero.engin.umich.edu/people/viswanathan-venkat/) </br>
 University of Michigan </br>
 
-This is the official implementation of <strong><em>CLOUD</em></strong>: ["CLOUD: A Scalable Scientific Foundation Model for Crystal Representation Learning"](https://openreview.net/forum?id=geZ5LQOCSj). In this work, we introduce CrystaL fOUnDation model (CLOUD), a Transformer-based foundation model for crystal representation learning via a novel symmetry-aware string representation and accurate, generalizable, and scalable property prediction. If you find our work useful in your research, please cite:
+This is the official implementation of <strong><em>CLOUD</em></strong>: ["CLOUD: A Scalable Scientific Foundation Model for Crystal Representation Learning"](https://openreview.net/forum?id=geZ5LQOCSj). In this work, we introduce Crystal Language mOdel for Unified and Differentiable materials modeling (CLOUD), a Transformer-based foundation model for crystal representation learning via a novel Symmetry-Consistent Ordered Parameter Encoding (SCOPE) and accurate, generalizable, and scalable property prediction. If you find our work useful in your research, please cite:
 ```
 @inproceedings{xu2024cloud,
   title={CLOUD: A Scalable Scientific Foundation Model for Crystal Representation Learning},
@@ -12,8 +12,6 @@ This is the official implementation of <strong><em>CLOUD</em></strong>: ["CLOUD:
   booktitle={Neurips 2024 Workshop Foundation Models for Science: Progress, Opportunities, and Challenges}
 }
 ```
-
-This work is still under development and new progress will be made publically available when ready.
 
 ## Getting Started
 
@@ -33,7 +31,7 @@ $ conda activate cloud
 
 ## Run the Model
 
-## Convert crystal structures to symmetry-aware string representation
+## Convert crystal structures to SCOPE representation
 To obtain the string representation from cif files.
 ```
 $ python structure_to_str.py --dir <path_to_cif> --out <output_path> --numproc <num_of_processes> --batchsize <batch_size>
@@ -56,4 +54,12 @@ To finetune the pretrained CLOUD on MatBench Discovery and make predictions for 
 ```
 $ python train_mp.py
 $ python wbm_predict.py
+```
+
+### Integrating CLOUD with physics laws
+To demonstrate the capability of integrating CLOUD with physics laws in a differentiable physics framework for physics-consistent property predictions, we develop CLOUD-DEBYE in which the Debye model is implemented with Gauss–Legendre quadrature to enable training from end to end. 
+
+To finetune the pretrained CLOUD encoder with phonon internal energy (U) or constant-volume heat capacity (Cv) labels with CLOUD-DEBYE, where the configurations and detailed explaination for each variable can be found in `config_debye.yaml`.
+```
+$ python train_debye.py
 ```
