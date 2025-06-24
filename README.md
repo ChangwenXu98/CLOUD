@@ -12,7 +12,7 @@ This is the official implementation of <strong><em>CLOUD</em></strong>: ["CLOUD:
   title={A Scalable and Physics-Informed Foundation Model for Crystal Representation Learning},
   author={Xu, Changwen and Zhu, Shang and Viswanathan, Venkatasubramanian},
   journal={arXiv preprint arXiv:2506.17345},
-  year={2022}
+  year={2025}
 }
 
 @inproceedings{xu2024cloud,
