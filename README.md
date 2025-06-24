@@ -1,11 +1,20 @@
 ## CLOUD ##
 
-#### Foundation Models for Science: Progress, Opportunities, and Challenges at NeurIPS 2024 [[Paper]](https://openreview.net/forum?id=geZ5LQOCSj) </br>
+#### CLOUD: A Scalable and Physics-Informed Foundation Model for Crystal Representation Learning [[arXiv]](https://arxiv.org/abs/2506.17345)
+
+#### Workshop paper in Foundation Models for Science: Progress, Opportunities, and Challenges at NeurIPS 2024 [[Paper]](https://openreview.net/forum?id=geZ5LQOCSj) </br>
 [Changwen Xu](https://changwenxu98.github.io/), [Shang Zhu](https://shang-zhu.github.io/), [Venkatasubramanian Viswanathan](https://aero.engin.umich.edu/people/viswanathan-venkat/) </br>
 University of Michigan </br>
 
-This is the official implementation of <strong><em>CLOUD</em></strong>: ["CLOUD: A Scalable Scientific Foundation Model for Crystal Representation Learning"](https://openreview.net/forum?id=geZ5LQOCSj). In this work, we introduce Crystal Language mOdel for Unified and Differentiable materials modeling (CLOUD), a Transformer-based foundation model for crystal representation learning via a novel Symmetry-Consistent Ordered Parameter Encoding (SCOPE) and accurate, generalizable, and scalable property prediction. If you find our work useful in your research, please cite:
+This is the official implementation of <strong><em>CLOUD</em></strong>: ["CLOUD: A Scalable and Physics-Informed Foundation Model for Crystal Representation Learning"](https://arxiv.org/abs/2506.17345). In this work, we introduce Crystal Language mOdel for Unified and Differentiable materials modeling (CLOUD), a Transformer-based foundation model for crystal representation learning via a novel Symmetry-Consistent Ordered Parameter Encoding (SCOPE) and accurate, generalizable, and scalable property prediction. If you find our work useful in your research, please cite:
 ```
+@article{xu2025cloud,
+  title={A Scalable and Physics-Informed Foundation Model for Crystal Representation Learning},
+  author={Xu, Changwen and Zhu, Shang and Viswanathan, Venkatasubramanian},
+  journal={arXiv preprint arXiv:2506.17345},
+  year={2022}
+}
+
 @inproceedings{xu2024cloud,
   title={CLOUD: A Scalable Scientific Foundation Model for Crystal Representation Learning},
   author={Xu, Changwen and Zhu, Shang and Viswanathan, Venkatasubramanian},
