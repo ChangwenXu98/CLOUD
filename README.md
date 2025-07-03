@@ -6,7 +6,7 @@
 [Changwen Xu](https://changwenxu98.github.io/), [Shang Zhu](https://shang-zhu.github.io/), [Venkatasubramanian Viswanathan](https://aero.engin.umich.edu/people/viswanathan-venkat/) </br>
 University of Michigan </br>
 
-This is the official implementation of <strong><em>CLOUD</em></strong>: ["CLOUD: A Scalable and Physics-Informed Foundation Model for Crystal Representation Learning"](https://arxiv.org/abs/2506.17345). In this work, we introduce Crystal Language mOdel for Unified and Differentiable materials modeling (CLOUD), a Transformer-based foundation model for crystal representation learning via a novel Symmetry-Consistent Ordered Parameter Encoding (SCOPE) and accurate, generalizable, and scalable property prediction. If you find our work useful in your research, please cite:
+This is the official implementation of <strong><em>CLOUD</em></strong>: ["CLOUD: A Scalable and Physics-Informed Foundation Model for Crystal Representation Learning"](https://arxiv.org/abs/2506.17345). In this work, we introduce Crystal Language mOdel for Unified and Differentiable materials modeling (CLOUD), a Transformer-based foundation model for crystal representation learning via a novel Symmetry-Consistent Ordered Parameter Encoding (SCOPE) and accurate, generalizable, and scalable property prediction. We further extend the model by integrating with Debye model for thermodynamic-consistent prediction of phonon-related properties. If you find our work useful in your research, please cite:
 ```
 @article{xu2025cloud,
   title={A Scalable and Physics-Informed Foundation Model for Crystal Representation Learning},
