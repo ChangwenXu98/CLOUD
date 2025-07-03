@@ -53,6 +53,8 @@ $ python -m torch.distributed.launch --nproc_per_node=2 pretrain.py
 ```
 <em>DistributedDataParallel</em> is used for faster pretraining.
 
+The checkpoints of the pretrained model and the pretraining data can be found [here](https://drive.google.com/drive/folders/1-ve6g7f4BWVRkUjKMZP4Q-YmjF2hHOXx?usp=sharing).
+
 ### Finetuning
 To finetune the pretrained CLOUD on MatBench or UnconvBench about crystal properties, where the configurations and detailed explaination for each variable can be found in `config.yaml`.
 ```
