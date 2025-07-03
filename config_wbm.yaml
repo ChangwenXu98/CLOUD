@@ -1,6 +1,6 @@
 gpu: 'cuda'
-load_model: "cloud_mb_discovery_layer_3_gen_bs_1024_fre_10"
-save_path: "data/wbm_eform_pred_mp_layer_3_gen_bs_1024_fre_10.csv"
+load_model: "cloud_mb_discovery"
+save_path: "data/wbm_eform_pred_mp.csv"
 
 model:
   max_position_embeddings: 64

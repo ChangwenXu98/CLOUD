@@ -14,8 +14,8 @@ logging_strategy: 'epoch'               # logging frequency
 evaluation_strategy: 'epoch'            # validation frequency
 report_to: 'tensorboard'                # integrations to report the results and logs to
 sharded_ddp: True                       # option of Sharded DDP training        
-save_path: "./runs/pretrain_cloud_optimade_6M_num_spg_num"   # logging and save path of the pretrained model
-load_checkpoint: "runs/pretrain_cloud_optimade_6M_num_spg_num/checkpoint-106597"
+save_path: "./runs/pretrain_cloud_optimade"   # logging and save path of the pretrained model
+load_checkpoint: False
 ddp_backend: "nccl"
 fsdp: "full_shard"
 
@@ -29,7 +29,7 @@ dropout: 0.1
 n_targets: 6
 
 dataset:
-  vocab_path: './tokenizer_cloud_optimade_spg_num'
+  vocab_path: './tokenizer_cloud_optimade'
   blocksize: 64                          # max length of sequences after tokenization
   batch_size: 1024                         # batch size
   dataloader_num_workers: 4              # Number of subprocesses to use for data loading

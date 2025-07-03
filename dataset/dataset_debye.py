@@ -58,7 +58,7 @@ class CloudDataset(Dataset):
     
 class CloudDatasetWrapper(object):
     def __init__(
-        self, dataset_name, batch_size, vocab_path, blocksize, map_path, num_workers, seed, valid_size
+        self, dataset_name, batch_size, vocab_path, blocksize, num_workers, seed, valid_size
     ):
         super(object, self).__init__()
         self.dataset_name = dataset_name
@@ -66,8 +66,6 @@ class CloudDatasetWrapper(object):
         self.num_workers = num_workers
         self.tokenizer = BertTokenizer.from_pretrained(vocab_path, do_lower_case=False)
         self.blocksize = blocksize
-        f = open(map_path, )
-        self.map_file = json.load(f)
         self.seed = seed
         self.valid_size = valid_size
 

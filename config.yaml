@@ -7,7 +7,7 @@ min_lr: 1e-7
 weight_decay: 0.01
 warmup_epochs: 10
 patience_epochs: 0
-load_model: "runs/pretrain_cloud_optimade_6M_num_spg_num"
+load_model: "runs/pretrain_cloud_optimade"
 resume_from_checkpoint: False
 log_every_n_steps: 50
 fold_num: 5
@@ -24,48 +24,6 @@ model:
   dropout: 0.1
   num_layers: 1
 
-  # # Multi-modal
-  # structure_net_params:
-  #   # orig_atom_fea_len:
-  #   # nbr_fea_len:
-  #   atom_fea_len: 64
-  #   n_conv: 3
-  #   h_fea_len: 128
-  #   n_h: 1
-  #   classification: False
-  # composition_net_params:
-  #   robust: True
-  #   task_dict: ['regression']
-  #   # elem_emb_len: 
-  #   elem_fea_len: 128
-  #   n_graph: 3
-  #   elem_heads: 3
-  # weight_net_params:
-  #   input_dim: 128
-  #   output_dim: 1
-  #   hidden_layer_dims: [128,64]
-  # output_net_params:
-  #   input_dim: 128
-  #   output_dim: 1
-  #   hidden_layer_dims: [128,64]
-
-  # # Roost
-  # robust: False
-  # task_dict: ['regression']
-  # # elem_emb_len: 
-  # elem_fea_len: 128
-  # n_graph: 3
-  # elem_heads: 3
-
-  # # CGCNN
-  # # orig_atom_fea_len:
-  # # nbr_fea_len:
-  # atom_fea_len: 64
-  # n_conv: 3
-  # h_fea_len: 128
-  # n_h: 1
-  # classification: False
-
 dataset:  
   # dataset_name: 'matbench_log_gvrh'
   # dataset_name: 'matbench_mp_e_form'
@@ -80,8 +38,8 @@ dataset:
   # dataset_name: 'unconvbench_defected'
   batch_size: 512
   num_workers: 2
-  vocab_path: './tokenizer_cloud_optimade_spg_num'
+  vocab_path: './tokenizer_cloud_optimade'
   blocksize: 64
-  map_path: './data/gen_map_large_spg_num.json'
+  map_path: './data/gen_map_large.json'
   seed: 0
   valid_size: 0.25
