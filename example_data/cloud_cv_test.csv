@@ -1,0 +1,300 @@
+cloud,cv,n_atoms
+0 4 b O O O c O O O d O O O l O O O 0 | 1a 3d 4e | Ta 0.12 Cu 0.38 S 0.5,180.20563003408128,8.0
+1 2 a E C C n O O O 0 | 3a 3b 6c 18f | Ba 0.1 Ti 0.1 B 0.2 O 0.6,163.56480242001396,10.0
+1 2 a E C C n O O O 0 | 6c 3a 3b 18f | Ba 0.2 La 0.1 Ta 0.1 O 0.6,212.6865970678537,10.0
+1 2 a D D O c O O O 0 | 4i 2c 2a 2b | Li 0.45 Sb 0.09 O 0.45,203.80979060473567,11.0
+1 3 a E C C n O O O e O O O 0 | 3b 3a 6c | Na 0.25 Sc 0.25 O 0.5,80.58458390952735,4.0
+1 3 a D D D b O O O c D D O 0 | 8j 4a | K 0.4 Zn 0.2 Te 0.4,244.0688486304616,10.0
+0 4 b O O O g D D O c D D O h D D O 1 Y B O | 2c 2a | Ca 0.33 Cl 0.33 F 0.33,136.6037017595378,6.0
+1 3 a D D O b O O D c O O D 0 | 4c 4a | Rb 0.33 Au 0.33 S 0.33,142.14448204637418,6.0
+0 3 n O O O b O O D k O O O 0 | 2a 2b | Li 0.33 Zn 0.33 Sb 0.33,142.0092556569986,6.0
+1 4 a D D D b O O O g O O O c O O O 0 | 4c 4e 2a | Rb 0.57 I 0.29 O 0.14,170.8171214604765,7.0
+1 3 n O O O b O O D e O O O 0 | 2d 2a 6h | Cs 0.2 Mg 0.2 Cl 0.6,235.8749032595049,10.0
+0 3 a D D D b O O O j O O O 0 | 2a 4d | Na 0.25 N 0.25 O 0.5,74.96164731361019,4.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4b 4a 24e | Cs 0.2 Na 0.1 As 0.1 Cl 0.6,241.1654304169462,10.0
+1 3 a E C C n O O O e O O O 0 | 3a 3b 6c | Ca 0.25 C 0.25 N 0.5,68.31418572214746,4.0
+1 3 a D D O b O O D c O O D 0 | 4c 4a 8f | Cs 0.17 Y 0.17 Hg 0.17 Se 0.5,291.49608705845327,12.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4b 4a 24e | Ca 0.12 Pb 0.12 F 0.75,173.03920273953423,8.0
+1 2 n O O O e O O O 0 | 2d 1a 6i | K 0.22 Ti 0.11 F 0.67,193.97819796071863,9.0
+1 2 n O O O e O O O 0 | 2d 1a | Y 0.4 Se 0.2 O 0.4,107.0791701170194,5.0
+1 3 a E C C n O O O e O O O 0 | 3b 3a 6c | In 0.25 Ag 0.25 O 0.5,82.63884804124987,4.0
+1 3 a D D O b O O D c O O D 0 | 8g 4b 4c | K 0.5 Ag 0.25 Bi 0.25,196.4163643553178,8.0
+0 6 a O D D a D O D b O O O c O O O d O O O l O O O 0 | 4d 4c 4a | Li 0.33 Mg 0.33 P 0.33,64.51444885649971,3.0
+1 3 a E C C n O O O e O O O 0 | 3b 3a 6c | Ca 0.25 Hg 0.25 O 0.5,83.48733751957509,4.0
+1 4 a D D D b O O O g O O O c O O O 0 | 4d 2a 4e 8h | Cs 0.22 Pd 0.11 I 0.22 Br 0.44,219.7368875802109,9.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 24e 4a | Ba 0.22 H 0.67 Os 0.11,117.92762055564968,9.0
+1 1 c O O D 0 | 2f 2e 4g | Sc 0.17 Ta 0.17 O 0.67,225.91212482876816,12.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4b 8c 4a | Cs 0.25 Rb 0.5 Sb 0.25,98.48694516899386,4.0
+1 4 a D D D b O O O g O O O c O O O 0 | 4e 2a | Sr 0.4 Zn 0.2 N 0.4,108.12072711240836,5.0
+1 3 a D D O b O O D c O O D 0 | 4c 4a 8f | K 0.17 Zr 0.17 Cu 0.17 S 0.5,276.01890778811776,12.0
+1 3 a E C C n O O O e O O O 0 | 3a 3b 6c | Cu 0.25 Rh 0.25 O 0.5,74.57540778304161,4.0
+1 2 a D D O c O O O 0 | 4i | K 0.33 Sb 0.67,146.7237258954315,6.0
+1 2 a D D O c O O O 0 | 4g 4i 8j 2c | Sc 0.18 Ti 0.18 O 0.64,205.25856507686385,11.0
+0 3 b O O O m O O O c D D O 0 | 2a 4e 2c | Ba 0.25 Se 0.75,193.43166105668288,8.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4a 4b | Na 0.5 I 0.5,48.958809601725626,2.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4b 4a 24e | Ca 0.12 Ti 0.12 F 0.75,167.1762732014342,8.0
+1 3 a D D O b O O D c O O D 0 | 4c 4a | Cs 0.33 Au 0.33 Se 0.33,145.67870698526136,6.0
+1 2 n O O O e O O O 0 | 2d 1a 2c | K 0.4 Pt 0.2 C 0.4,103.12795402306854,5.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4a 4b | Tl 0.5 F 0.5,44.48687575631689,2.0
+0 3 n O O O b O O D k O O O 0 | 2b | Li 0.5 I 0.5,92.56483212171506,4.0
+0 3 a D D O b O O D j O O D 0 | 4a | Sc 0.25 Ti 0.12 O 0.62,299.22639969749576,16.0
+1 2 a E C C n O O O 0 | 3b 3a 18f | Cd 0.12 Pb 0.12 F 0.75,176.2265270520682,8.0
+1 3 n O O O b O O D e O O O 0 | 2d 2a 6h | Cs 0.2 Cd 0.2 Br 0.6,244.8726133201229,10.0
+0 3 b O O O m O O O c O O O 0 | 1a 2f 4n | Cd 0.14 In 0.29 Se 0.57,167.90156548338535,7.0
+1 3 b O O O g D D D c D D D 0 | 2a 4f | Ca 0.33 Br 0.67,144.6062691645072,6.0
+0 3 n O O O i O O O e O O O 0 | 3g 3f 4h 2e | Rb 0.5 Se 0.5,293.5053572458382,12.0
+0 3 a E C C n O O O k O O O 0 | 3a | Na 0.25 C 0.25 N 0.25 O 0.25,72.2564443780207,4.0
+1 2 a D D O c O O O 0 | 2a 2c 4i 8j | Rb 0.08 Ta 0.08 P 0.17 O 0.67,203.59433624306223,12.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4a 4b | Ba 0.5 S 0.5,48.05601255738935,2.0
+1 3 b D O D c O D D d O O O 0 | 4a 8c | Ru 0.33 S 0.67,246.90044381761945,12.0
+0 4 b O O O g D D O c D D O h D D O 1 Y B O | 2c 2a | K 0.33 Mg 0.33 Sb 0.33,143.63411097504138,6.0
+1 4 b O O O c O O O d O O O e O O O 0 | 1a 1b | Mg 0.5 O 0.5,32.30840850491458,2.0
+1 3 b O O O g D D D c D D D 0 | 2a 4f | Ti 0.33 O 0.67,113.73845136097212,6.0
+1 2 n O O O f O O O 0 | 1a 2d 6k | Hg 0.11 As 0.22 O 0.67,162.48197783560744,9.0
+0 4 b O O O c O O O d O O O l O O O 0 | 1a 3d 4e | Nb 0.12 Cu 0.38 Se 0.5,187.8173756214761,8.0
+1 3 a D D O b O D D c O D D 0 | 8e 8f | K 0.5 O 0.5,176.30047072665116,8.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4a 4b | Ca 0.5 Se 0.5,47.571287842851696,2.0
+0 4 b O O O g D D O c D D O h D D O 1 Y B O | 2c 2a | La 0.33 Br 0.33 O 0.33,135.2196302847728,6.0
+0 3 a D D O b O O D j O O D 0 | 8b 4a | Na 0.33 Ge 0.17 O 0.5,238.9001041970291,12.0
+1 4 a D D D b O O O g O O O c O O O 0 | 4e 2a 4c | Cs 0.29 Hg 0.14 F 0.57,166.5914779779048,7.0
+1 2 b O O O c D D D 0 | 2a 4g | Fe 0.33 S 0.67,120.86545292520096,6.0
+0 4 a D D D b O O O m O O O c O O O 0 | 4d 2b 2a 8i | Li 0.25 Ca 0.12 Ge 0.12 O 0.5,148.23247912259575,8.0
+0 4 b O O O c O O O d O O O l O O O 0 | 1a 3d 4e | V 0.12 Cu 0.38 S 0.5,175.23253171437688,8.0
+0 2 a E C C n O O O 0 | 3a 9b | Cd 0.2 Bi 0.2 O 0.6,214.21551791899424,10.0
+1 3 n O O O b O O D e O O O 0 | 2c 2a 4f | Rb 0.25 Y 0.25 Te 0.5,195.57359940510747,8.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4b 4a 24e | Rb 0.2 Na 0.1 Sb 0.1 F 0.6,211.9130241717502,10.0
+0 3 a D D D b O O O m O O O 0 | 2d 2a 8g | Be 0.17 S 0.17 O 0.67,85.41975423220602,6.0
+1 2 a D D O c O O O 0 | 2d 2b 4i | Na 0.25 Au 0.25 O 0.5,81.06633017723875,4.0
+1 3 a E C C n O O O e O O D 0 | 12c 18e | Al 0.4 O 0.6,159.8992613696794,10.0
+0 4 a D D D b O O O m O O O c O O O 0 | 2a 4d 2b 8i | Ba 0.12 Ag 0.25 Ge 0.12 S 0.5,185.06943751685472,8.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4b 4a 24e | Cs 0.2 Na 0.1 N 0.1 F 0.6,205.86014890690768,10.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4a 4b | K 0.5 Cl 0.5,48.56971185947164,2.0
+0 2 a D D O j O O D 0 | 4a | Ga 0.4 Se 0.6,235.73433958794664,10.0
+1 3 b O O O g D D D c D D D 0 | 8j 4c 4g | Ga 0.75 Os 0.25,375.9085103449031,16.0
+0 3 n O O O b O O D k O O O 0 | 2b | Al 0.5 Sb 0.5,91.1193443696141,4.0
+1 4 b O O O c O O O d O O O e O O O 0 | 3d 1b 1a | K 0.6 I 0.2 O 0.2,120.07694891353636,5.0
+1 3 b D O D c O D D d O O O 0 | 8c 4a | P 0.67 Pt 0.33,248.04033171342957,12.0
+0 3 b D O D c O D D d O O O 0 | 4a | Si 0.5 Os 0.5,172.4783098178479,8.0
+1 2 a D D O c O O O 0 | 4i | Y 0.4 Cl 0.6,235.69736224859665,10.0
+1 4 a D D D b O O O g O O O c O O O 0 | 4d 8h 2a | Na 0.29 H 0.57 Pt 0.14,102.98071190071768,7.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4a 24e | Cs 0.22 Pt 0.11 Br 0.67,218.60435666263967,9.0
+1 1 c O D O 0 | 2e 4f | Cs 0.2 Be 0.2 H 0.6,153.5308828540739,10.0
+1 3 a D D O b O O D c O O D 0 | 8g 4c 4b | Na 0.5 As 0.25 Au 0.25,192.62581851523183,8.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4a 4b | Ba 0.5 Sb 0.25 Au 0.25,98.75558900954638,4.0
+0 3 n O O O b O O D k O O O 0 | 2b | Al 0.5 P 0.5,82.55544084638672,4.0
+1 4 a D D D b O O O g O O O c O O O 0 | 8i 8h 8j | Li 0.33 Cu 0.33 O 0.33,233.60088128814928,12.0
+1 3 a D D O b O O D c O O D 0 | 8g 4b 4c | K 0.5 Ag 0.25 P 0.25,191.63933035686824,8.0
+1 3 a E C C n O O O e O O O 0 | 6c 3a 18h | K 0.18 Mg 0.09 C 0.18 O 0.55,185.06602654297689,11.0
+1 3 n O O O b O O D e O O O 0 | 2a 2b 4f | Li 0.25 Nb 0.25 S 0.5,170.39394227681143,8.0
+1 2 n O O O e O O O 0 | 1a 2d | Mg 0.2 Al 0.4 C 0.4,87.95432865636536,5.0
+0 3 b O O D g D D B c D D B 0 | 4a 8b | Sn 0.33 F 0.67,277.2145018103041,12.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4a 4b | Mg 0.5 Se 0.5,47.0616709148468,2.0
+1 3 a D D D b O O O c O O O 0 | 4j 4g | Cs 0.5 S 0.5,95.40101630226285,4.0
+1 2 a D D O c O O O 0 | 4i 2a 2d 8j | Ba 0.2 La 0.1 Ta 0.1 O 0.6,212.6607811605362,10.0
+0 2 b D O D c O D D 0 | 4a | Te 0.33 O 0.67,239.04228350549857,12.0
+0 3 b O O O m O O O c D D O 0 | 2c 2a 4e | Y 0.25 Ag 0.25 Te 0.5,194.85148404329527,8.0
+0 3 n O O O b O O D k O O O 0 | 2b | Be 0.5 O 0.5,51.42548444395658,4.0
+1 2 a E C C n O O O 0 | 3b 3a 18f | Cd 0.12 Sn 0.12 F 0.75,171.14337443327432,8.0
+1 3 a E C C n O O O e O O D 0 | 6b 6a 18e | Mg 0.2 C 0.2 O 0.6,151.10981818885222,10.0
+1 3 n O O O b O O D e O O O 0 | 2a 2c 4f | Al 0.25 Ag 0.25 O 0.5,146.88745688602003,8.0
+1 4 a D D D b O O O g O O O c O O O 0 | 4e 2b 8g 2a | Sr 0.25 Ti 0.17 O 0.58,245.03901366682535,12.0
+0 5 a D D D b D D D g O D B c D O F h O D B 1 O B Z | 4b 4a 16h | Zr 0.17 Si 0.17 O 0.67,201.56838395191292,12.0
+1 2 a E C C n O O O 0 | 3b 3a 18f | Cd 0.12 Pd 0.12 F 0.75,166.37897313442488,8.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4a 24e | K 0.22 Pt 0.11 Br 0.67,210.16011343270077,9.0
+0 2 a D D O j O O D 0 | 4a | Ag 0.33 Te 0.17 S 0.5,282.18306441421026,12.0
+1 2 a D D O c O O O 0 | 2c 2a 4i | Li 0.25 Cu 0.25 O 0.5,76.08520839867701,4.0
+0 2 n O O C e O O O 0 | 3b 3a 6c | Ba 0.25 Zn 0.25 O 0.5,260.1497577516432,12.0
+1 2 a D D O c O O O 0 | 4i | Ga 0.4 O 0.6,186.07105039384064,10.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 24e 8c 4b 4a | Mg 0.6 Bi 0.2 P 0.1 N 0.1,221.25685336886025,10.0
+1 4 a D D D b O O O g O O O c O O O 0 | 4e 2a 4c | Ba 0.29 Hf 0.14 O 0.57,150.59789707020974,7.0
+1 2 n O O O e O O O 0 | 2d 1a 6i | Cs 0.22 Zr 0.11 F 0.67,200.72450129476184,9.0
+1 2 a D D O c O O O 0 | 4i | Sr 0.2 W 0.2 N 0.6,186.9106909345152,10.0
+0 4 b O O O g D D O c D D O h D D O 1 Y B O | 2c 2a | Ba 0.33 Br 0.33 F 0.33,143.3091434844742,6.0
+0 6 a O D D a D O D b O O O c O O O d O O O l O O O 0 | 4a 4d | Zn 0.5 S 0.5,44.974732123433256,2.0
+0 3 a D D D b O O O m O O O 0 | 2d 2b 2a 8g | Ag 0.29 Hg 0.14 I 0.57,172.1056437147225,7.0
+0 4 b O O O c O O O d O O O l O O O 0 | 3d 1a 4e | Li 0.38 V 0.12 S 0.5,169.50597097039545,8.0
+1 2 b D O O c O O O 0 | 2f 2e 2a | Cs 0.33 Te 0.33 Au 0.33,147.44597553182612,6.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4b 8c 4a 24e | K 0.1 Rb 0.2 Ga 0.1 F 0.6,205.70628898916368,10.0
+1 3 a E C C n O O O e O O O 0 | 3b 3a 6c | Ag 0.25 Bi 0.25 S 0.5,96.04511954876769,4.0
+0 3 a D D O b O O D j O O D 0 | 4a | Cs 0.33 H 0.33 O 0.33,105.1110691116872,6.0
+1 1 c O D D 0 | 2d 2a 4e | Ag 0.25 Au 0.25 O 0.5,162.0583605024814,8.0
+1 2 b D O D c D O D 0 | 2d 2b 4g | Li 0.25 Ag 0.25 O 0.5,155.03714187069352,8.0
+1 3 a E C C n O O O e O O O 0 | 3b 3a 6c | K 0.25 La 0.25 Te 0.5,97.94155038105332,4.0
+1 3 a D D D b O O O g O O O 0 | 4d 2a 2b 8h 4e | Ba 0.2 Y 0.1 Ta 0.1 O 0.6,208.8950934981296,10.0
+1 4 a O D D a D O D b O O O c O O O 0 | 8f 8h 16n 8i | Cs 0.4 P 0.6,220.7622585858264,10.0
+1 4 b O O O c O O O d O O O e O O O 0 | 1a 1b | Cs 0.5 Br 0.5,49.51188865337622,2.0
+0 3 a E C C n O O O e O O O 0 | 3a 6c 3b 9e | K 0.11 Be 0.22 B 0.11 O 0.33 F 0.22,141.3583498794094,9.0
+1 2 a D D O c O O O 0 | 4h 2c 2b 8j 4i | Sc 0.4 S 0.6,223.9312747425525,10.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4a 4b | Cu 0.5 Cl 0.5,45.129309095446295,2.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4a 4b | K 0.5 H 0.5,37.85485012817376,2.0
+0 6 a O D D a D O D b O O O c O O O d O O O l O O O 0 | 4a 4d | In 0.5 P 0.5,45.22050744113223,2.0
+1 2 n O O O e O O O 0 | 1a 2d | Sr 0.2 Zn 0.4 As 0.4,119.7584170806889,5.0
+1 1 c O D O 0 | 2e | Rb 0.4 H 0.2 Br 0.2 O 0.2,213.53196508482097,10.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4a | Be 0.67 C 0.33,37.95683766190808,3.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4b 8c 4a 24e | K 0.1 Rb 0.2 Bi 0.1 F 0.6,153.39622489531232,10.0
+1 4 b O O O c O O O d O O O e O O O 0 | 1b 1a 3d | K 0.2 Ta 0.2 O 0.6,101.32907923211384,5.0
+1 4 a D D D b O O O g O O O c O O O 0 | 4e 2a | Al 0.67 Os 0.33,64.30114646492216,3.0
+0 5 a D D D b D D D g O D B c D O F h O D B 1 O B Z | 4b 8c 8e | Sr 0.2 Cu 0.4 O 0.4,213.16608750688104,10.0
+0 3 a E C C n O O O k O O O 0 | 3a 9b | K 0.2 N 0.2 O 0.6,84.93788476046021,5.0
+1 2 a E C C n O O O 0 | 6c 18f | Na 0.2 Bi 0.2 O 0.6,205.4118792528485,10.0
+0 4 a D D D b O O O m O O O j O O O 0 | 2d 2a | Ag 0.5 I 0.5,49.10849121355734,2.0
+0 5 a D D D b D D D g O D B c D O F h O D B 1 O B Z | 4b 4a 16h | Y 0.17 As 0.17 O 0.67,222.60972165687647,12.0
+1 3 a D D O b O O D c O O D 0 | 4c 4a 8f | K 0.2 Ca 0.2 Br 0.6,243.077282594332,10.0
+0 6 a O D D a D O D b O O O c O O O d O O O l O O O 0 | 4a 4d 4b | Li 0.33 Zn 0.33 P 0.33,65.71213470147049,3.0
+0 6 a O D D a D O D b O O O c O O O d O O O l O O O 0 | 4c 4d 4a | Li 0.33 Zn 0.33 P 0.33,64.99018937876252,3.0
+0 3 a D D O b O O D j O O D 0 | 4a 8b | Cs 0.4 Te 0.6,246.73539528476292,10.0
+0 3 n O O O i O O O k O O O 0 | 1a 1d 1f 3k 1c | K 0.14 Ca 0.14 C 0.14 O 0.43 F 0.14,128.3251318670121,7.0
+1 2 a E C C n O O O 0 | 3b 3a 18f | Rb 0.12 Sb 0.12 F 0.75,168.2451782737041,8.0
+0 4 a D D D b O O O m O O O c D O F 0 | 4a 8d | Zn 0.33 Cl 0.67,139.57996706487387,6.0
+1 3 a E C C n O O O e O O O 0 | 3b 3a 6c | Li 0.25 Y 0.25 Se 0.5,95.04669981690908,4.0
+1 3 a D D O b O O D c O O D 0 | 4c 4b | K 0.33 Au 0.33 S 0.33,141.5718958444092,6.0
+1 2 n O O O f O O O 0 | 1a 2d 6k | Cd 0.11 As 0.22 O 0.67,159.68808465649286,9.0
+1 2 a D D O c O O D 0 | 4e 4c 8f | Li 0.33 Pb 0.17 O 0.5,250.8168950406743,12.0
+1 2 b O O O c D D D 0 | 4g 2a | As 0.67 Os 0.33,137.82697020952003,6.0
+1 2 a D D O c O O D 0 | 4e 8f | Ba 0.33 Se 0.67,145.98801314291353,6.0
+1 3 a D D O b O D D c O D D 0 | 8d 8f 8e | La 0.33 S 0.33 O 0.33,263.1535344000068,12.0
+1 2 n O O O e O O O 0 | 1b 2d 1a | Li 0.5 La 0.17 Sb 0.33,136.0929519916803,6.0
+1 2 b D O D c O D O 0 | 4c 4a | K 0.33 Cu 0.33 S 0.33,279.4119659418249,12.0
+1 2 a E C C n O O O 0 | 6c 18f | K 0.2 Sb 0.2 O 0.6,196.0204305178363,10.0
+0 4 b O O O g D D O c D D O h D D O 1 Y B O | 2c 2a | Sr 0.33 H 0.33 Br 0.33,112.44328459158535,6.0
+1 2 n O O O e O O O 0 | 1b 2d | Ca 0.2 Mg 0.4 N 0.4,98.71410627341092,5.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4a 4b 24e | Ba 0.2 Y 0.1 Nb 0.1 O 0.6,205.67091613191067,10.0
+1 3 n O O O b O O D e O O O 0 | 6h 2d 2a | Ba 0.6 Sb 0.2 N 0.2,238.29626860379017,10.0
+1 2 a E C C n O O O 0 | 3b 3a 18f | Li 0.12 Bi 0.12 F 0.75,170.2593521142141,8.0
+0 3 b O O O m O O O c O O D 0 | 2d 2e 8n | Al 0.17 Cu 0.17 Cl 0.67,270.7012553916855,12.0
+0 6 a O D D a D O D b O O O c O O O d O O O l O O O 0 | 4a 4b 4d | Ti 0.33 Sn 0.33 Pt 0.33,70.35356676611016,3.0
+1 4 a D D D b O O O g O O O c O O O 0 | 4d 2b 2a 4e 8h | Cs 0.2 Ag 0.1 Au 0.1 Cl 0.6,239.58327403424275,10.0
+1 2 a E C C n O O O 0 | 3a 3b 6c 18f | Mg 0.1 Sn 0.1 B 0.2 O 0.6,155.49393808264762,10.0
+1 4 b O O O c O O O d O O O e O O O 0 | 1b 1a 3d | Ba 0.2 Hf 0.2 O 0.6,104.69417753693467,5.0
+1 1 c O O D 0 | 2f 2e 4g | Sc 0.17 Nb 0.17 O 0.67,226.2966523242545,12.0
+1 4 a D D D b O O O g O O O c O O O 0 | 4d 2b 2a 8i 4e | Cs 0.3 Y 0.1 F 0.6,190.7247768749989,10.0
+0 4 a D D D b O O O m O O O c D O F 0 | 4b 4a 8d | Al 0.25 Cu 0.25 S 0.5,172.67526705430785,8.0
+1 4 a D D D b O O O g O O O c O O O 0 | 4e | Cs 0.33 Br 0.33 F 0.33,145.0707641841539,6.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4a | Ca 0.67 Si 0.33,70.35890003011727,3.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4b 4a 24e | Cs 0.2 Rb 0.1 Y 0.1 F 0.6,190.3828169661892,10.0
+0 3 a E C C n O O O e O O O 0 | 3b 6c 18f 3a | Ba 0.08 Al 0.17 Sb 0.17 O 0.58,224.5211769151148,12.0
+1 3 a E C C n O O O e O O O 0 | 6c 3a | K 0.57 Be 0.14 P 0.29,160.33227280258015,7.0
+1 3 b O O O g D D D c D D D 0 | 2a 4f | Sn 0.33 O 0.67,112.99112233111047,6.0
+1 1 c O D O 0 | 2e | Rb 0.17 Hf 0.17 Ag 0.17 Te 0.5,293.3158744469567,12.0
+0 3 a D D O b O O D j O O D 0 | 8b 4a | Ag 0.33 Ge 0.17 S 0.5,275.3084799699509,12.0
+1 4 a D D D b O O O g O O O c O O O 0 | 2b 4d 2a 8i 4e | Cs 0.3 Tl 0.1 F 0.6,193.84746283560932,10.0
+1 2 a D D O c O O O 0 | 4i | Cs 0.17 Ag 0.5 S 0.33,288.15099894056164,12.0
+1 3 a D D O b O O D c O O D 0 | 4c 8e | Ba 0.2 Bi 0.2 I 0.2 O 0.4,224.44046257008944,10.0
+0 3 a D D O b O O D j O O D 0 | 4a 8b | K 0.4 Se 0.6,242.47452945892687,10.0
+1 2 n O O O e O O O 0 | 2d 1a 6i | Rb 0.22 Pt 0.11 F 0.67,194.1018969931368,9.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4b 4a 24e | Rb 0.2 Tl 0.1 Ga 0.1 F 0.6,201.11011917460075,10.0
+0 6 a O D D a D O D b O O O c O O O d O O O l O O O 0 | 4b 4d 4a | Sc 0.33 Ni 0.33 Sb 0.33,69.68254530398632,3.0
+1 2 a D D O c O O O 0 | 2a 4i 8j | Ba 0.09 B 0.18 F 0.73,194.59245992430704,11.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4b 4a 24e | Cs 0.2 Al 0.1 In 0.1 H 0.6,144.2161388518226,10.0
+1 2 a D D O c O O O 0 | 4g 4i 8j 2c | Y 0.18 Si 0.18 O 0.64,190.2350609807717,11.0
+0 4 a D D D b O O O m O O O c D O F 0 | 4b 4a 8d | Al 0.25 Ag 0.25 S 0.5,175.37801361462843,8.0
+1 4 a D D D b O O O g O O O c O O O 0 | 4e 2a 4c | Ba 0.29 Sn 0.14 O 0.57,149.77251757483026,7.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4a 4b | Cd 0.5 S 0.5,47.28479426051897,2.0
+0 3 a D D D b O O O m O O O 0 | 2b 2a 2d 8g | Li 0.14 Si 0.14 B 0.14 O 0.57,100.58024879819772,7.0
+1 3 a D D D b O O O c O O O 0 | 4j 2a 4h | K 0.4 Pd 0.2 O 0.4,108.60017244357066,5.0
+0 4 a O D D a D O D b O O O j B B B 0 | 16b 8a | Au 0.4 O 0.6,191.2729883339596,10.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4a 8c | Zr 0.33 O 0.67,56.50080930906832,3.0
+1 3 a D D O b O O D c O O D 0 | 4c 4a 8g | Ba 0.25 Pd 0.25 S 0.5,185.96100304860576,8.0
+1 3 b O O O g D D D c D D D 0 | 2a 4f | Ge 0.33 O 0.67,104.0842839143616,6.0
+0 5 a D D D b D D D g O D B c D O F h O D B 1 O B Z | 4a 4b 16h | Hf 0.17 Si 0.17 O 0.67,202.47982946285856,12.0
+1 4 a D D D b O O O g O O O c O O O 0 | 4e 4c 2b | Ba 0.57 As 0.29 O 0.14,157.46625185166442,7.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4b 8c 4a | Cs 0.25 K 0.5 Sb 0.25,98.49932945125497,4.0
+0 6 a O D D a D O D b O O O c O O O d O O O l O O O 0 | 4a 4d | Al 0.5 As 0.5,44.13722929644637,2.0
+1 3 n O O O b O O D e O O O 0 | 2a 2d 2c | K 0.33 Zn 0.33 Sb 0.33,145.36794583696636,6.0
+0 4 b O O O g D D O c D D O h D D O 1 Y B O | 2c 2a | Sr 0.33 Cl 0.33 F 0.33,139.67461282121448,6.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4a | Na 0.67 O 0.33,66.91601050749762,3.0
+1 3 a E C C n O O O e O O O 0 | 3b 3a 6c | Y 0.25 Cu 0.25 O 0.5,81.31723683657557,4.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4a 4b | Sr 0.5 Bi 0.25 Au 0.25,98.48068383297336,4.0
+0 4 b O O O g D D O c D D O h D D O 1 Y B O | 2c 2a 2b | Ba 0.25 Cu 0.25 Se 0.25 F 0.25,190.3369037487326,8.0
+1 3 a D D D b O O O g O O O 0 | 4d 8h 2a | Ga 0.29 Te 0.71,169.3920541655781,7.0
+1 3 a D D D b O O O c O O O 0 | 4j 4g | Rb 0.5 S 0.5,95.15267967236665,4.0
+1 3 a E C C n O O O e O O O 0 | 3b 3a 6c | Na 0.25 Nb 0.25 N 0.5,69.00491733955779,4.0
+1 2 a D D O c O O O 0 | 4i 2a 2d 8j | Rb 0.2 Au 0.2 I 0.6,246.1844511331197,10.0
+0 5 a D D D b O O O c O O O d O O O l O O O 0 | 6b 2a 8c | Na 0.38 Sb 0.12 S 0.5,183.6896668879532,8.0
+1 1 c O D D 0 | 4e | Ta 0.33 N 0.33 O 0.33,213.5078053540208,12.0
+1 3 n O O O b O O D e O O O 0 | 2b 4f 2c | Na 0.75 P 0.25,189.10380574504129,8.0
+1 4 b O O O c O O O d O O O e O O O 0 | 3c 1a 1b | Rb 0.6 Au 0.2 O 0.2,117.02961144359608,5.0
+0 4 a O D D a D O D b O O O j B B B 0 | 8a 16b | Pt 0.2 F 0.8,201.0545393662661,10.0
+0 4 a D D D b O O O m O O O c D O F 0 | 4a 4b 8d | Be 0.25 Ge 0.25 As 0.5,170.32022825743115,8.0
+1 3 a E C C n O O O e O O O 0 | 6c 3a 3b | Sr 0.5 I 0.25 N 0.25,94.10636658593252,4.0
+0 4 b O O O g D D O c D D O h D D O 1 Y B O | 2c 2a | K 0.33 Li 0.33 Se 0.33,138.7337034516725,6.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4b 4a 24e | Cs 0.2 Na 0.1 In 0.1 F 0.6,228.26960924205076,10.0
+1 1 c O D O 0 | 2e | Na 0.33 H 0.33 S 0.33,120.24971456635478,6.0
+0 4 b O O O g D D O c D D O h D D O 1 Y B O | 2c 2a 2b | Sr 0.25 Cu 0.25 Se 0.25 F 0.25,188.73164200905168,8.0
+1 2 a E C C n O O O 0 | 3a 3b 18f | Cd 0.12 Pt 0.12 F 0.75,166.34373743363545,8.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4b 8c 4a 24e | K 0.1 Rb 0.2 Rh 0.1 F 0.6,198.6653184187716,10.0
+0 7 a O D D a D O D b O D D c D D O d O O O e F B F h B B B 1 Z Z Z | 8b | Si 1.0,39.90708499309008,2.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 24e 4a | Mg 0.22 H 0.67 Os 0.11,115.90297342756764,9.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4a 4b | Sr 0.5 Se 0.5,48.50501583087964,2.0
+1 2 a E C C n O O O 0 | 3b 3a 18f | Li 0.12 As 0.12 F 0.75,157.7184092476082,8.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4b 4a 24e | Cs 0.2 Na 0.1 Bi 0.1 F 0.6,233.9637727374415,10.0
+0 4 b O O O g D D O c D D O h D D O 1 Y B O | 2c 2a | Rb 0.33 Ca 0.33 As 0.33,144.7946145033538,6.0
+0 5 a D D D b D D D g O D B c D O F h O D B 1 O B Z | 4a 8d 8e | Ba 0.2 Cu 0.4 O 0.4,213.8845330805076,10.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4a 8c | Ba 0.33 F 0.67,69.74680464459715,3.0
+1 4 a D D D b O O O g O O O c O O D 0 | 4a 4d 16l | Sr 0.17 Pd 0.17 F 0.67,260.95601795376945,12.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4b 4a 24e | Cs 0.2 Na 0.1 Tl 0.1 F 0.6,231.56693965065483,10.0
+1 3 a E C C n O O O e O O O 0 | 6c 3b 9e | K 0.38 Cu 0.38 As 0.25,192.06481458922156,8.0
+1 2 n O O O e O O O 0 | 1b 3e 2d | Cs 0.17 Cu 0.5 O 0.33,126.90901395411872,6.0
+0 3 n O O O b O O D k O O O 0 | 2b | Ga 0.5 N 0.5,70.9972333182799,4.0
+1 3 b O O O g O O O c O O O 0 | 1a 1b 2h 4i 1d | Na 0.22 Hf 0.22 O 0.56,169.09053073484333,9.0
+1 2 b O O O c D D D 0 | 4g | In 0.5 S 0.5,186.235313164025,8.0
+1 2 n O O O e O O O 0 | 1a 1b 2d | Li 0.25 Co 0.25 S 0.5,86.1193264884043,4.0
+0 4 b O O O g D D O c D D O h D D O 1 Y B O | 2c 2a | Ba 0.33 H 0.33 Cl 0.33,113.88850155161872,6.0
+0 3 a D D D b O O O m O O O 0 | 2a 2d 2b 8g | Cd 0.14 Ga 0.29 S 0.57,157.23679956657304,7.0
+1 3 a D D O b O O D c O O D 0 | 4c 8f | Rb 0.25 Au 0.25 O 0.5,165.51677511953957,8.0
+0 4 b O O O g D D O c D D O h D D O 1 Y B O | 2c 2a | Cs 0.25 Li 0.25 Cl 0.5,189.17432645299587,8.0
+1 3 a E C C n O O O e O O O 0 | 3b 3a 6c | Sr 0.25 C 0.25 N 0.5,70.41010175301967,4.0
+1 2 b O O O c D D D 0 | 4g 2a | P 0.67 Ru 0.33,123.62537042304017,6.0
+1 4 a O D D a D O D b O O O c O O O 0 | 8f 8h 8i 16n | Rb 0.4 P 0.6,228.8448461447421,10.0
+0 2 n O O O k O O O 0 | 1a 1c 1b | Y 0.25 Cu 0.25 Se 0.5,95.5312992414504,4.0
+1 3 a E C C n O O O e O O O 0 | 3b 3a 6c | Rb 0.25 Bi 0.25 S 0.5,95.81026394329903,4.0
+1 3 a E C C n O O O e O O O 0 | 3b 3a 6c | Ga 0.25 Cu 0.25 O 0.5,77.59530739042798,4.0
+0 3 n O O O i O O O e O O O 0 | 3f 3g 2c 1b | Na 0.33 Sr 0.33 As 0.33,216.54202640242264,9.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4a 4b | Rb 0.5 I 0.5,49.5413634558799,2.0
+1 3 a E C C n O O O e O O D 0 | 6b 6a 18e | In 0.2 B 0.2 O 0.6,161.24315359806965,10.0
+0 3 n O O O i O O O k O O O 0 | 1a 1d | Mg 0.5 O 0.5,38.92811170601505,2.0
+0 3 a D D D b O O O m O O O 0 | 2d 2b 2a 8g | Al 0.29 Hg 0.14 Se 0.57,160.9925746548699,7.0
+1 2 a D D O c O O D 0 | 4b 4d 4e 8f | Cu 0.4 Pb 0.2 O 0.4,213.00643485349264,10.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4a 4b | Ca 0.5 O 0.5,42.20283364070679,2.0
+0 4 a D D D b O O O m O O O c D O F 0 | 4b 4a 8d | In 0.25 Ag 0.25 S 0.5,184.9696880311285,8.0
+0 3 b O O D g D D B c D D B 0 | 4a 8b | Li 0.25 Al 0.25 O 0.5,268.1930053039867,16.0
+1 4 a D D D b O O O g O O O c O O O 0 | 2a 4e 8g 2b | Ba 0.25 Zr 0.17 O 0.58,255.3506913027544,12.0
+1 3 a D D O b O O O c O O O 0 | 2b 4f 2a 8p 4j | Mg 0.1 Pt 0.3 O 0.6,180.6828287050962,10.0
+1 3 n O O O b O O D e O O O 0 | 2a 2c 4f | La 0.25 Ag 0.25 O 0.5,171.84940663677938,8.0
+0 6 a O D D a D O D b O O O c O O O d O O O l O O O 0 | 4b 4a 4d | Zr 0.33 Si 0.33 Pt 0.33,68.5655343722757,3.0
+1 3 a E C C n O O O e O O D 0 | 6b 6a 18e | Ca 0.2 C 0.2 O 0.6,160.71629686232495,10.0
+1 2 n O O O e O O O 0 | 2d 1b 1a 6i | Cs 0.2 Li 0.1 Ga 0.1 F 0.6,219.19192315208045,10.0
+0 4 a D D D b O O O m O O O c D O F 0 | 4b 4a 8d | Al 0.25 Cu 0.25 Se 0.5,183.49227061275,8.0
+1 4 b O O O c O O O d O O O e O O O 0 | 1a 1b | Sr 0.5 Te 0.5,48.59078957189521,2.0
+0 7 a O D D a D O D b O D D c D D O d O O O e F B F h B B B 1 Z Z Z | 8b 8a 16c | Rb 0.25 Al 0.25 O 0.5,133.47098764988064,8.0
+1 3 a D D O b O O D c O O D 0 | 4c 4b | Cs 0.33 Cu 0.33 O 0.33,131.9255872455151,6.0
+1 3 a D D O b O O D c O O D 0 | 8g 4b 4c | Na 0.5 Cu 0.25 As 0.25,190.7632334449601,8.0
+0 6 a O D D a D O D b O O O c O O O d O O O l O O O 0 | 4d 4b 4a 4c | Li 0.5 Cu 0.25 Sb 0.25,89.83444501482438,4.0
+1 2 n O O O e O O O 0 | 2d 1a 2c | Rb 0.4 Pt 0.2 C 0.4,103.9049401140623,5.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4b 4a 24e | Ag 0.12 As 0.12 F 0.75,139.45009453506378,8.0
+1 2 a E C C n O O O 0 | 3b 3a 18f | Na 0.12 Bi 0.12 F 0.75,172.9485181009506,8.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4a 24e | Rb 0.22 Pd 0.11 Br 0.67,218.4999178248073,9.0
+1 2 n O O O e O O O 0 | 1b 3e 2d | Cs 0.17 Cu 0.5 S 0.33,138.26981218569722,6.0
+1 3 a E C C n O O O e O O O 0 | 3b 3a 6c | Na 0.25 In 0.25 Se 0.5,96.62665612712036,4.0
+0 4 a D D D b D D D g O D B j O O O 0 | 8b 4a | Ga 0.4 Te 0.2 Se 0.4,237.00568624500872,10.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 4b 4a 24e | Na 0.12 P 0.12 F 0.75,137.62003899675997,8.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4a 24e | Cs 0.22 Ge 0.11 Cl 0.67,213.10220016124967,9.0
+1 2 b D O D c O D O 0 | 4c | Sr 0.33 Li 0.33 Bi 0.33,282.18833195532903,12.0
+1 3 a E C C n O O O e O O O 0 | 3a 3b 6c | Sr 0.25 Hf 0.25 N 0.5,82.8562592460781,4.0
+1 4 b O O O c O O O d O O O e O O O 0 | 1b 1a | Sr 0.5 S 0.5,47.76686336769268,2.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4a | Cs 0.67 Se 0.33,74.17649104954717,3.0
+0 2 a D D O c O O O 0 | 2a 2b 4c | Bi 0.1 B 0.3 O 0.6,143.73135239427776,10.0
+0 4 a D D D b O O O m O O O c D O F 0 | 4a 8d | Si 0.33 O 0.67,90.24996608253008,6.0
+0 3 n O O O b O O D k O O O 0 | 2b | La 0.5 N 0.5,86.98540045686761,4.0
+1 6 a O D D a D O D b O O O c O O O d O O O e O O O 0 | 8c 4a 24e | Cs 0.22 Hf 0.11 I 0.67,221.84515437939427,9.0
+0 6 a O D D a D O D b O O O c O O O d O O O l O O O 0 | 4a 4d | Al 0.5 P 0.5,41.23014300384933,2.0
+1 3 b O O O g O O O c O O O 0 | 1a 1b 2h 4i 1d | Rb 0.22 Hf 0.22 O 0.56,188.48502616562143,9.0
+0 2 n O O E e O O O 0 | 3a 6c | Ge 0.33 O 0.67,159.9955718923355,9.0
+1 3 a E C C n O O O e O O O 0 | 6c 3a | K 0.57 Hg 0.14 As 0.29,170.7369768161919,7.0
+0 2 n O O O k O O O 0 | 1b 1a 1c | Sr 0.25 Al 0.25 Ge 0.25 H 0.25,75.22702553642975,4.0
+1 2 a D D O c O O O 0 | 4h 4i 8j 2a | Mg 0.18 As 0.18 O 0.64,183.33798804925732,11.0
+1 4 a D D D b O O O g O O O c O O O 0 | 4e 2a 4c | Ba 0.29 Pb 0.14 O 0.57,150.79603797526835,7.0
+0 6 a O D D a D O D b O O O c O O O d O O O l O O O 0 | 4a 4c | Ag 0.5 I 0.5,49.108500608796064,2.0
+1 2 a E C C n O O O 0 | 3b 3a 18f | Ti 0.12 Cd 0.12 F 0.75,168.43667137197892,8.0
+1 2 a D D O c O O D 0 | 4e 8f | K 0.25 Sb 0.25 O 0.5,170.55840184369654,8.0
+1 3 n O O O b O O D e O O O 0 | 4e 4f 2c 2d | Ca 0.25 Zn 0.25 Cu 0.12 P 0.38,366.3587247586672,16.0
